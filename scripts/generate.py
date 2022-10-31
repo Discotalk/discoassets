@@ -7,7 +7,7 @@ pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float
 
 prompt = sys.argv[2]
 
-for i in range(27):
+for i in range(96):
     print(f'Generating {i}')
     image = pipe(prompt, num_inference_steps=25, guidance_scale=7.5).images[0]
     image.save(f'out{i}.png')
