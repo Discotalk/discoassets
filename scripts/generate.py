@@ -1,5 +1,6 @@
 from diffusers import StableDiffusionPipeline
 import torch
+import sys
 
 model_id = sys.argv[1]
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
