@@ -1,0 +1,12 @@
+from diffusers import StableDiffusionPipeline
+import torch
+
+model_id = sys.argv[1]
+pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
+
+prompt = sys.argv[2]
+
+for i in range(9):
+    print(f'Generating {i}')
+    image = pipe(prompt, num_inference_steps=25, guidance_scale=7.5).images[0]
+    image.save(f'out{i}.png')
