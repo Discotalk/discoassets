@@ -1,2 +1,2 @@
 
-/home//.deno/bin/deno run --allow-net --allow-run --allow-write discoassets/scripts/worker.ts
+/home//.deno/bin/deno run --allow-net --allow-env --allow-run --allow-write discoassets/scripts/worker.ts
