@@ -2,7 +2,7 @@
 const API_KEY = Deno.env.get("API_KEY");
 
 // const API_HOST = 'http://localhost:3000';
-const API_HOST = 'http://discotalk.app/api/train_jobs';
+const API_HOST = 'https://discotalk.app';
 
 async function fetchJobs() {
     const response = await fetch(`${API_HOST}/api/train_jobs`, {
@@ -10,6 +10,12 @@ async function fetchJobs() {
             "x-api-key": API_KEY
         }
     });
+
+    if (response.status !== 200) {
+        const error = await response.text();
+        console.info(`Failed to fetch train jobs: ${error}`);
+        return null;
+    }
 
     const trainJobs = await response.json();
 
@@ -71,6 +77,11 @@ async function downloadJobInputAssets(job: any) {
         const assetPath = `${assetsDir}/${asset.name}`;
         const res = await fetch(asset.url);
 
+        if (res.status !== 200) {
+            console.info(`Failed to download asset ${asset.name} for job ${job.id}`);
+            continue;
+        }
+
         if (!res.body) {
             console.info(`Asset ${asset.name} is empty`);
             continue;
@@ -121,7 +132,7 @@ async function runJobInSubprocess(job: any) {
 async function run() {
     const trainJobs = await fetchJobs();
 
-    if (!trainJobs.items) {
+    if (!trainJobs || !trainJobs.items) {
         console.info(`No train jobs to run`);
         // Retry in 5 seconds
         setTimeout(run, 5000);
@@ -129,6 +140,11 @@ async function run() {
     }
 
     console.info(`Got ${trainJobs.items.length} train jobs`);
+
+    if (trainJobs.items.length === 0) {
+        setTimeout(run, 2500);
+        return;
+    }
 
     for (const job of trainJobs.items) {
         await runJobInSubprocess(job);
