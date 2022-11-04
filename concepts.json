@@ -2,7 +2,13 @@
     {
         "instance_prompt":      "photo of zki person",
         "class_prompt":         "photo of person",
-        "instance_data_dir":    "discoassets/human1",
+        "instance_data_dir":    "discoassets/human2",
+        "class_data_dir":       "discoassets/classes/person"
+    },
+    {
+        "instance_prompt":      "photo of lammm person",
+        "class_prompt":         "photo of person",
+        "instance_data_dir":    "discoassets/human3",
         "class_data_dir":       "discoassets/classes/person"
     },
     {
