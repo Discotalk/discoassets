@@ -64,5 +64,11 @@
         "class_prompt":         "photo of meal",
         "instance_data_dir":    "discoassets/dish1",
         "class_data_dir":       "discoassets/classes/meal"
+    },
+    {
+        "instance_prompt":      "photo of fvnelweoi scented candle",
+        "class_prompt":         "photo of scented candle",
+        "instance_data_dir":    "discoassets/product1",
+        "class_data_dir":       "discoassets/classes/scented_candle"
     }
 ]
