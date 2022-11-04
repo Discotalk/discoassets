@@ -8,19 +8,19 @@
     {
         "instance_prompt":      "photo of fjklei dog",
         "class_prompt":         "photo of dog",
-        "instance_data_dir":    "discoassets/dog1",
+        "instance_data_dir":    "discoassets/dog2",
         "class_data_dir":       "discoassets/classes/dog"
     },
     {
         "instance_prompt":      "photo of cosvksdke dog",
         "class_prompt":         "photo of dog",
-        "instance_data_dir":    "discoassets/dog2",
+        "instance_data_dir":    "discoassets/dog3",
         "class_data_dir":       "discoassets/classes/dog"
     },
     {
         "instance_prompt":      "photo of zelqki dog",
         "class_prompt":         "photo of dog",
-        "instance_data_dir":    "discoassets/dog3",
+        "instance_data_dir":    "discoassets/dog4",
         "class_data_dir":       "discoassets/classes/dog"
     },
     {
