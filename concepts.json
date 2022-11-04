@@ -1,18 +1,18 @@
 [
     {
-        "instance_prompt":      "photo of zki person",
+        "instance_prompt":      "photo of zkivnmewlf person",
         "class_prompt":         "photo of person",
         "instance_data_dir":    "discoassets/human2",
         "class_data_dir":       "discoassets/classes/person"
     },
     {
-        "instance_prompt":      "photo of lammm person",
+        "instance_prompt":      "photo of lammttdd person",
         "class_prompt":         "photo of person",
         "instance_data_dir":    "discoassets/human3",
         "class_data_dir":       "discoassets/classes/person"
     },
     {
-        "instance_prompt":      "photo of ccczzz person",
+        "instance_prompt":      "photo of ccczzza person",
         "class_prompt":         "photo of person",
         "instance_data_dir":    "discoassets/human4",
         "class_data_dir":       "discoassets/classes/person"
@@ -66,7 +66,7 @@
         "class_data_dir":       "discoassets/classes/meal"
     },
     {
-        "instance_prompt":      "photo of fvnelweoi scented candle",
+        "instance_prompt":      "photo of fvnefslweoi scented candle",
         "class_prompt":         "photo of scented candle",
         "instance_data_dir":    "discoassets/product1",
         "class_data_dir":       "discoassets/classes/scented_candle"
