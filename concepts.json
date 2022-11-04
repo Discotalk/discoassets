@@ -12,6 +12,12 @@
         "class_data_dir":       "discoassets/classes/person"
     },
     {
+        "instance_prompt":      "photo of xyzxyz person",
+        "class_prompt":         "photo of person",
+        "instance_data_dir":    "train/person3",
+        "class_data_dir":       "discoassets/classes/person"
+    },
+    {
         "instance_prompt":      "photo of fjklei dog",
         "class_prompt":         "photo of dog",
         "instance_data_dir":    "discoassets/dog2",
