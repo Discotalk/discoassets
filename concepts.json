@@ -12,6 +12,12 @@
         "class_data_dir":       "discoassets/classes/person"
     },
     {
+        "instance_prompt":      "photo of ccczzz person",
+        "class_prompt":         "photo of person",
+        "instance_data_dir":    "discoassets/human4",
+        "class_data_dir":       "discoassets/classes/person"
+    },
+    {
         "instance_prompt":      "photo of xyzxyz person",
         "class_prompt":         "photo of person",
         "instance_data_dir":    "train/person3",
@@ -21,6 +27,18 @@
         "instance_prompt":      "photo of zzzhhh person",
         "class_prompt":         "photo of person",
         "instance_data_dir":    "train/person4",
+        "class_data_dir":       "discoassets/classes/person"
+    },
+    {
+        "instance_prompt":      "photo of vjdklrw person",
+        "class_prompt":         "photo of person",
+        "instance_data_dir":    "train/person5",
+        "class_data_dir":       "discoassets/classes/person"
+    },
+    {
+        "instance_prompt":      "photo of nveoqkldjkl person",
+        "class_prompt":         "photo of person",
+        "instance_data_dir":    "train/person6",
         "class_data_dir":       "discoassets/classes/person"
     },
     {
