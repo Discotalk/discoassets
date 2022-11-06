@@ -1,5 +1,11 @@
 [
     {
+        "instance_prompt":      "photo of fvnefslweoi scented candle with cement holder",
+        "class_prompt":         "scented candle with cement holder",
+        "instance_data_dir":    "discoassets/product1",
+        "class_data_dir":       "discoassets/classes/scented_candle_cement"
+    },
+    {
         "instance_prompt":      "photo of zkivnmewlf person",
         "class_prompt":         "photo of person",
         "instance_data_dir":    "discoassets/human2",
@@ -64,11 +70,5 @@
         "class_prompt":         "photo of meal",
         "instance_data_dir":    "discoassets/dish1",
         "class_data_dir":       "discoassets/classes/meal"
-    },
-    {
-        "instance_prompt":      "photo of fvnefslweoi scented candle",
-        "class_prompt":         "photo of scented candle",
-        "instance_data_dir":    "discoassets/product1",
-        "class_data_dir":       "discoassets/classes/scented_candle"
     }
 ]
