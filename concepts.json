@@ -18,10 +18,10 @@
         "class_data_dir":       "discoassets/classes/person"
     },
     {
-        "instance_prompt":      "photo of ccczzza person",
-        "class_prompt":         "photo of person",
+        "instance_prompt":      "photo of ccczzza young asian person",
+        "class_prompt":         "photo of young asian person",
         "instance_data_dir":    "discoassets/human4",
-        "class_data_dir":       "discoassets/classes/person"
+        "class_data_dir":       "discoassets/classes/asian_person"
     },
     {
         "instance_prompt":      "photo of xyzxyz person",
