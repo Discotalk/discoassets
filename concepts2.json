@@ -1,0 +1,14 @@
+[
+    {
+        "instance_prompt":      "photo of arishammmodel person",
+        "class_prompt":         "photo of person",
+        "instance_data_dir":    "discoassets/human5",
+        "class_data_dir":       "discoassets/classes/person"
+    },
+    {
+        "instance_prompt":      "photo of malikammmodel person",
+        "class_prompt":         "photo of person",
+        "instance_data_dir":    "discoassets/human6",
+        "class_data_dir":       "discoassets/classes/person"
+    }
+]
